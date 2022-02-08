@@ -1,12 +1,12 @@
 import React from "react";
 
-function Lifts() {
+function Contact() {
     return (
         <div className="wrapper">
-            Here are the different types of Lifts!
+            Here are all the ways you can contact us!
         </div>
     )
 
 }
 
-export default Lifts;
+export default Contact;

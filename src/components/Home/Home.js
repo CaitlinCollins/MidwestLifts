@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
     return (
@@ -8,7 +9,7 @@ function Home() {
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval="7000">
                   <div className="words-overlay">
-                      <h1>lighting</h1>
+                      <Link to="/lighting" className="words-overlay">lighting</Link>
                   </div>
                 <img src="https://media.istockphoto.com/photos/dark-empty-room-with-reflective-tiles-floor-and-lights-3d-rendering-picture-id1186900859"  alt="lights" className="d-block w-100"></img>
                 <div id="overlay" width="80px" height="80px">
@@ -18,7 +19,7 @@ function Home() {
               </div>
               <div className="carousel-item" data-bs-interval="7000">
                 <div className="words-overlay">
-                    <h1>lifts</h1>
+                <Link to="/lifts" className="words-overlay">lifts</Link>
                 </div>
                 <img src="https://media.istockphoto.com/photos/an-auto-repair-shop-full-of-cars-to-be-fixed-picture-id177413862" alt="lift" className="d-block w-100"></img>
                 <div id="overlay" width="80px" height="80px">
@@ -27,7 +28,7 @@ function Home() {
               </div>
               <div className="carousel-item" data-bs-interval="7000">
                 <div className="words-overlay">
-                    <h1>flooring</h1>
+                <Link to="/flooring" className="words-overlay">flooring</Link>
                 </div>
                 <img src="https://media.istockphoto.com/photos/oil-leak-or-drop-from-engine-of-car-on-concrete-floor-check-and-auto-picture-id1136400107" alt="flooring" className="d-block w-100"></img>
                 <div id="overlay" width="80px" height="80px">

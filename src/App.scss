@@ -7,34 +7,61 @@ body {
   margin: 0 0 70px;
 }
 
-nav {
+.navbar {
     height: 90px;
 }
 
-
+.wrapper {
+  padding: 20px;
+}
 .content {
   box-sizing: border-box;
 }
 
-.nav-link {
+.nav-link, button {
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
+    color: white !important;
+    padding-top: 0 !important;
+    background-color: transparent !important;
+    border: none !important;
     
+}
+
+.ms-auto {
+  padding-top:10px;
+}
+
+.dropdown-menu {
+  background-color: grey !important;
 }
 
 i {
     color: white !important;
     padding: 10px;
-    font-size: 22px;
+    font-size: 22px !important;
+}
+
+footer {
+  padding:20px !important;
 }
 .navbar-brand {
-    font-family: 'Courier New', Courier, monospace;
-    letter-spacing: 3px;
-    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace !important;
+    letter-spacing: 3px !important;
+    font-size: 36px !important;
     color: white !important;
+    padding: 10px;
    
 }
 
+.navbar-brand:active {
+  color: grey !important;
+}
+
+.nav-link:active {
+  color: rgb(161, 199, 248) !important;
+
+}
 
 #navbar-right {
     float: right !important;
@@ -53,12 +80,13 @@ i {
     height: 70px;
     width: 100%;
     padding: 5px;
+    z-index: 100;
     
 }
 
 #overlay {
     position: absolute;
-    bottom: 0px;
+    bottom: 40px;
     left: 0px;
     opacity: .8;
 }
@@ -68,14 +96,18 @@ i {
     top: 50%;
     left: 50%;
     transform:translate(-50%, -50%);
-    color: white; 
+    color: white !important; 
+    font-size: 100px !important;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: none;
     z-index: 1;
     opacity: .8;
-    animation: fadeIn linear 7s;
-  -webkit-animation: fadeIn linear 7s;
-  -moz-animation: fadeIn linear 7s;
-  -o-animation: fadeIn linear 7s;
-  -ms-animation: fadeIn linear 7s;
+    animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
 }
 @keyframes fadeIn {
     0% {opacity:0;}
@@ -106,11 +138,5 @@ i {
     height: 200px;
 }
 
-h1 {
-    font-size: 100px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    color: white;
-}
 
 

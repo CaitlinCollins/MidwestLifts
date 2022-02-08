@@ -1,12 +1,12 @@
 import React from "react";
 
-function Lifts() {
+function Lighting() {
     return (
         <div className="wrapper">
-            Here are the different types of Lifts!
+            Here are the different types of Lighting!
         </div>
     )
 
 }
 
-export default Lifts;
+export default Lighting;
