@@ -12,7 +12,7 @@ function Header() {
                 <Navbar.Brand><Link to="/home" className="navbar-brand">MIDWEST LIFTS, LLC</Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="ms-auto">
+                <Nav className="ms-auto navbarpadding">
                     <Nav.Link className="nav-link"><Link to="/home" className="nav-link">HOME</Link></Nav.Link>
                     <NavDropdown title="SERVICES" id="basic-nav-dropdown">
                     <NavDropdown.Item><Link to="/lifts" className="nav-link">LIFTS</Link></NavDropdown.Item>
