@@ -6,7 +6,7 @@ import Col from "react-bootstrap/col";
 function Footer() {
     return (
         <div>
-            <footer className="footer bg-dark">
+            <footer className="footer ">
             <Row>
             <Col md={3} className="text-center">
             <Link to="/lifts" className="footerlinks">LIFTS</Link>

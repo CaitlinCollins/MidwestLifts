@@ -8,29 +8,28 @@ function Home() {
         <div id="carouselExampleControls" className="carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval="7000">
+                <div className="words-overlay">
+                <Link to="/lifts" className="words-overlay">LIFTS</Link>
+                </div>
+                <img src="/assets/FlooringPic9.jpg" alt="lift" className="d-block w-100 hero"></img>
+                <div id="overlay" width="80px" height="80px">
+                    <img src="assets/logo.png" alt="logo" id="logo"></img>
+                </div>
+              </div>
+              <div className="carousel-item" data-bs-interval="7000">
                   <div className="words-overlay">
-                      <Link to="/lighting" className="words-overlay">lighting</Link>
+                      <Link to="/lighting" className="words-overlay">LIGHTING</Link>
                   </div>
-                <img src="https://media.istockphoto.com/photos/dark-empty-room-with-reflective-tiles-floor-and-lights-3d-rendering-picture-id1186900859"  alt="lights" className="d-block w-100"></img>
-                <div id="overlay" width="80px" height="80px">
-                    <img src="assets/logo.png" alt="logo" id="logo"></img>
-                </div>
-                
-              </div>
-              <div className="carousel-item" data-bs-interval="7000">
-                <div className="words-overlay">
-                <Link to="/lifts" className="words-overlay">lifts</Link>
-                </div>
-                <img src="https://media.istockphoto.com/photos/an-auto-repair-shop-full-of-cars-to-be-fixed-picture-id177413862" alt="lift" className="d-block w-100"></img>
+                <img src="/assets/LightingPic3.jpg"  alt="lights" className="d-block w-100 hero"></img>
                 <div id="overlay" width="80px" height="80px">
                     <img src="assets/logo.png" alt="logo" id="logo"></img>
                 </div>
               </div>
               <div className="carousel-item" data-bs-interval="7000">
                 <div className="words-overlay">
-                <Link to="/flooring" className="words-overlay">flooring</Link>
+                <Link to="/flooring" className="words-overlay">FLOORING</Link>
                 </div>
-                <img src="https://media.istockphoto.com/photos/oil-leak-or-drop-from-engine-of-car-on-concrete-floor-check-and-auto-picture-id1136400107" alt="flooring" className="d-block w-100"></img>
+                <img src="/assets/FlooringPic6.jpg" alt="flooring" className="d-block w-100 hero"></img>
                 <div id="overlay" width="80px" height="80px">
                     <img src="assets/logo.png" alt="logo" id="logo"></img>
                 </div>
