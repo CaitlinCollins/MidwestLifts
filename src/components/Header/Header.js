@@ -26,36 +26,7 @@ function Header() {
             </Navbar>
 
 
-          {/* <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-            <div className="container-fluid">
-                <a className="navbar-brand"><Link to="/home" className="navbar-brand">MIDWEST LIFTS, LLC</Link></a>
-                    <div id="navbar-right">
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
-                        </button>
-                        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div className="navbar-nav">
-                                <a className="nav-link"><Link to="/home" className="nav-link">HOME</Link></a>
-                                <NavDropdown className="my-dropdown">
-                                    <NavDropdown.Toggle className="nav-link">
-                                    SERVICES
-                                    </NavDropdown.Toggle>
-                                    <NavDropdown.Menu>
-                                    <NavDropdown.Item><Link to="/lifts" className="nav-link">LIFTS</Link>
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item><Link to="/lighting" className="nav-link">LIGHTING</Link>
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item><Link to="/flooring" className="nav-link">FLOORING</Link>
-                                    </NavDropdown.Item>
-                                    </NavDropdown.Menu>
-                                </NavDropdown>
-                                <a className="nav-link"><a className="nav-link"><Link to="/galleries" className="nav-link">GALLERIES</Link></a></a>
-                                <a className="nav-link"><a className="nav-link"><Link to="/contact" className="nav-link">CONTACT</Link></a></a>
-                            </div>
-                        </div>
-                     </div>
-            </div>
-        </nav> */}
+
     </div>
     )
 
